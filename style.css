@@ -5,18 +5,17 @@
   
     
   }
-html {
+  html {
       background-color: #191919;
+      height: 100%;
   }
-body {
+  body {
   
     height:100vh
   }
   
-  
-  }
-main {
-    background-color:#495867;
+  main {
+    background-color:#191919;
   
   }
   
