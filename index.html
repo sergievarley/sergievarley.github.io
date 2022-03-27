@@ -11,8 +11,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
+  <div class="container2">
     <header>
       <div class="inner-header">
         <h1>MY <span class="non-bold">Website</span></h1>          
@@ -21,35 +24,104 @@
           <ul class="nav-links">
             <li><a href="#about">About</li>
             <li><a href="">Portfolio</a></li>
-            <li><a href="">Let's Chat</a></li>
+            <li><a href="mailto:sergievarley@outlook.com">Let's Chat</a></li>
           </ul>       
         </nav>
-      <a class="contact-me" href=""><button>Contact Me</button></a>
+      <a class="contact-me" href="mailto:sergievarley@outlook.com"><button>Contact Me</button></a>
       </div>
     </header>
   <main>
   <!-- Hero area  --> 
-    <section>
+    <section class="section">
          <div class="hero-image">
            <div class="hero-text">
                <h1>Sergie Varley</h1>
                <p class="margin-bottom">Software Developer</p>
-               <button type="button">Let's Chat</button>      
+               <button type="button"><a href="mailto:sergievarley@outlook.com">Let's Chat</a></button>      
            </div>
           </div>               
         </section>
 <!--     About area -->
         <section id="about" class="about">
           <div class="main">
-            <img src="https://www.lambdatest.com/blog/wp-content/uploads/2018/11/JPG-2.jpg"/>
+            <div class="tooltip"><img src="https://www.lambdatest.com/blog/wp-content/uploads/2018/11/JPG-2.jpg"/>
+                <span class="tooltiptext">My current stack includes: HTML and CSS</span>
+            </div>
             <div class="about-text">
               <h2>About me</h2>
               <h5>Aspiring <span class="color">Software developer</span></h5>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam totam quidem est molestias corporis. Autem nemo praesentium animi molestias eaque non ut, blanditiis, ratione dolore asperiores distinctio laboriosam aspernatur? </p>
+              <p>My name is<span> Sergie Varley</span> and I'm an aspiring Software developer/ Web developer. Im compentent at HTML/CSS , and have used some JavaScript and Python</p>
               <button type="button">Lets talk</button>
             </div>
           </div>
+            <div class="main">
+              <div class="tooltip"><img src="img\2022-03-27 (4).png"/>
+                <span class="tooltiptext">A Tour page for a Band using bootstrap</span>
+            </div>
+              <div class="about-text">
+                <h2>Projects</h2>
+                <h5>Some<span class="color"> Of my projects</span></h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam totam quidem est molestias corporis. Autem nemo praesentium animi molestias eaque non ut, blanditiis, ratione dolore asperiores distinctio laboriosam aspernatur? </p>
+              </div>
+            </div>
+            <div class="main">
+              <img src="img\2022-03-27 (6).png"/>
+              <div class="about-text">
+                <h2>CSS Artwork</h2>
+                <h5>Full<span class="color"> Css artwork</span></h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam totam quidem est molestias corporis. Autem nemo praesentium animi molestias eaque non ut, blanditiis, ratione dolore asperiores distinctio laboriosam aspernatur? </p>
+              </div>
+            </div>
+            <div class="main">
+              <img src="img\2022-03-27 (9).png"/>
+              <div class="about-text">
+                <h2>Baby Name generator</h2>
+                <h5>Python<span class="color"> Scripts</span></h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam totam quidem est molestias corporis. Autem nemo praesentium animi molestias eaque non ut, blanditiis, ratione dolore asperiores distinctio laboriosam aspernatur? </p>
+              </div>
+            </div>
         </section>
-    </main>
+        <section>
+        </section>
+    
+      </main>
+  </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Contact Me</h4>
+                    <ul>
+                        <li><a href="mailto:sergievarley@outlook.com">Email me</a></li>
+                        <li><a href="#" >+447565 748 711 </a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                      <li><a href="#">About us</a></li>
+                      <li><a href="#">Our services</a></li>
+                      <li><a href="#">Privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                  <h4>Get help</h4>
+                  <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Payment options</a></li>
+                  </ul>
+              </div>
+              <div class="footer-col">
+                <h4>Follow Me</h4>
+                <ul>
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-camera-retro"></i></a></li>
+                  <li><a href="https://twitter.com/sergie_varley"><i class="fa fa-twitter"></i></a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
